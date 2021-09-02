@@ -1,17 +1,60 @@
 
-#button {
+#btn-translate {
     
-        background-color: #4CAF50; /* Green */
+        background-color: #f8fc0f; 
         border: none;
-        color: white;
-        padding: 15px 32px;
+        color:black;
+        padding: 5px 2px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-      
-      
-    transition-duration: 0.4s;
+        font-size: 19px;
+        margin: 5% 35% ;
+        border: rgb(255, 47, 99);
+    
+  }
+  #text{
+      width:90%;
+      height: 30vh;
+      padding: 2px;
+    
+      margin: auto;
+      text-align: center;
+      display:block;
+    
+  }
+  #output{
+    width:90%;
+    height: 30vh;
+    padding: 2px;
+  
+    margin: auto;
+    text-align: center;
+    display:block;
+  background-color: rgba(231, 218, 26, 0.979);
+       
+  }
+  .h1{
+      background-color: yellow;
+      margin: auto;
+      text-align: center;
   }
   
+  .nav{
+      display:block;
+      padding: 2%;
+      color:black;
+      margin-bottom: 3%;
+      float: left;
+      background-color: yellow;
+
+
+    overflow:auto;
+      width:100%;
+      
+
+  }
+    
+    
+
   

@@ -7,14 +7,15 @@
 
 // //output
 // alert(infotext);
+
 var btnTranslate = document.querySelector("#btn-translate");
-btnTranslate.addEventListener("click",function clickEventHandler() {
-    console.log("clicked");
-})
+var textInput = document.querySelector("#text");
 
+console.log(textInput);
+function clickHandler() {
+    console.log("clicked!");
+    console.log("input",textInput.value);
+};
+btnTranslate.addEventListener("click",clickHandler)
 
-var clickMe = document.querySelector("#click");
-clickMe.addEventListener("click" , function clickEventHandler() {
-    console.log("Bless you!");
-})
-
+ 
