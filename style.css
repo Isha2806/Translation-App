@@ -1,60 +1,10 @@
+.root{
+    --navigation:#3DB2FF;
+    --slide:#FFEDDA;
+    --appColour:#FFB830;
+    --footer:#FF2442;
 
-#btn-translate {
-    
-        background-color: #f8fc0f; 
-        border: none;
-        color:black;
-        padding: 5px 2px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 19px;
-        margin: 5% 35% ;
-        border: rgb(255, 47, 99);
-    
-  }
-  #text{
-      width:90%;
-      height: 30vh;
-      padding: 2px;
-    
-      margin: auto;
-      text-align: center;
-      display:block;
-    
-  }
-  #output{
-    width:90%;
-    height: 30vh;
-    padding: 2px;
-  
-    margin: auto;
-    text-align: center;
-    display:block;
-  background-color: rgba(231, 218, 26, 0.979);
-       
-  }
-  .h1{
-      background-color: yellow;
-      margin: auto;
-      text-align: center;
-  }
-  
-  .nav{
-      display:block;
-      padding: 2%;
-      color:black;
-      margin-bottom: 3%;
-      float: left;
-      background-color: yellow;
-
-
-    overflow:auto;
-      width:100%;
-      
-
-  }
-    
-    
-
-  
+}
+.body{
+background-color: red;
+}
